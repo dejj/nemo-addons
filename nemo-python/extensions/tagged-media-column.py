@@ -73,4 +73,4 @@ class ColumnExtensionForTags(GObject.GObject, Nemo.ColumnProvider, Nemo.InfoProv
         
 
 def show(ary):
-    return str(' '.join(ary))
+    return '\u3000' if not ary else str(' '.join(ary))
