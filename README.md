@@ -2,7 +2,11 @@
 
 This repo contains a nemo action and a nemo python extension.
 
-Copy the files from `nemo/actions` to:
+Run `make install` to copy the files into `/local/share`
+OR  `make link` to link the files into `~/.local/share`.
+
+You may also manually
+copy the files from `nemo/actions` to:
 
 `~/local/share/nemo/actions` OR `/usr/share/nemo/actions`
 
